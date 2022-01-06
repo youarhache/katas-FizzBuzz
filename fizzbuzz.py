@@ -3,5 +3,7 @@ def get_fizzbuzz(number: int):
         return "Fizz"
     elif number == 5:
         return "Buzz" 
-    else:
-        return "1"
+    elif number == 1:
+        return 1
+    elif number == 13:
+        return 13

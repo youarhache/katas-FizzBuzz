@@ -14,4 +14,9 @@ def test_when_5_then_buzz():
 def test_when_1_then_1():
     result_1 = get_fizzbuzz(1)
 
-    assert result_1 == "1"
+    assert result_1 == 1
+
+def test_when_13_then_13():
+    result_13 = get_fizzbuzz(13)
+
+    assert result_13 == 13
