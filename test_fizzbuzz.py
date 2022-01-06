@@ -11,12 +11,22 @@ def test_when_5_then_buzz():
 
     assert result_5 == "Buzz"
 
+
 def test_when_1_then_1():
     result_1 = get_fizzbuzz(1)
 
     assert result_1 == 1
 
+
 def test_when_13_then_13():
     result_13 = get_fizzbuzz(13)
 
     assert result_13 == 13
+
+
+def test_when_14_then_14():
+    result_14 = get_fizzbuzz(14)
+
+    assert result_14 == 14
+
+
