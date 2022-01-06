@@ -58,3 +58,9 @@ def test_when_15_then_FizzBuzz():
     result_15 = get_fizzbuzz(15)
 
     assert result_15 == "FizzBuzz"
+
+
+def test_when_30_then_FizzBuzz():
+    result_30 = get_fizzbuzz(30)
+
+    assert result_30 == "FizzBuzz"

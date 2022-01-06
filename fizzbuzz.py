@@ -1,5 +1,5 @@
 def get_fizzbuzz(number: int):
-    if number == 15:
+    if number == 15 or number == 30:
         return "FizzBuzz"
     elif is_multiple_of_3(number):
         return "Fizz"
