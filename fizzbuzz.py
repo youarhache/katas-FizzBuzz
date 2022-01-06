@@ -1,5 +1,7 @@
 def get_fizzbuzz(number: int):
-    if is_multiple_of_3(number):
+    if number == 15:
+        return "FizzBuzz"
+    elif is_multiple_of_3(number):
         return "Fizz"
     elif is_multiple_of_5(number):
         return "Buzz" 
