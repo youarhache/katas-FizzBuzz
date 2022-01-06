@@ -48,3 +48,7 @@ def test_when_10_then_Buzz():
     assert result_10 == "Buzz"
 
 
+def test_when_20_then_Buzz():
+    result_20 = get_fizzbuzz(20)
+
+    assert result_20 == "Buzz"
