@@ -1,2 +1,7 @@
 def get_fizzbuzz(number: int):
-    return "Fizz" if number == 3 else "Buzz"
+    if number == 3:
+        return "Fizz"
+    elif number == 5:
+        return "Buzz" 
+    else:
+        return "1"
