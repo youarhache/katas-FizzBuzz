@@ -30,3 +30,7 @@ def test_when_14_then_14():
     assert result_14 == 14
 
 
+def test_when_6_then_Fizz():
+    result_6 = get_fizzbuzz(6)
+
+    assert result_6 == "Fizz"
