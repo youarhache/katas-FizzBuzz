@@ -34,3 +34,9 @@ def test_when_6_then_Fizz():
     result_6 = get_fizzbuzz(6)
 
     assert result_6 == "Fizz"
+
+
+def test_when_21_then_Fizz():
+    result_21 = get_fizzbuzz(21)
+
+    assert result_21 == "Fizz"

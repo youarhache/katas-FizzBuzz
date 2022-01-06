@@ -6,4 +6,4 @@ def get_fizzbuzz(number: int):
     return number
 
 def is_multiple_of_6(number):
-    return number == 3 or number == 6
+    return number % 3 == 0
