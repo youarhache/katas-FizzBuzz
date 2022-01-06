@@ -40,3 +40,11 @@ def test_when_21_then_Fizz():
     result_21 = get_fizzbuzz(21)
 
     assert result_21 == "Fizz"
+
+
+def test_when_10_then_Buzz():
+    result_10 = get_fizzbuzz(10)
+
+    assert result_10 == "Buzz"
+
+

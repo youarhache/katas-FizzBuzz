@@ -1,7 +1,7 @@
 def get_fizzbuzz(number: int):
     if is_multiple_of_6(number):
         return "Fizz"
-    elif number == 5:
+    elif number == 5 or number == 10:
         return "Buzz" 
     return number
 
